@@ -1,0 +1,31 @@
+{
+  "name": "backend-engineering-overview-live-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local-db": "docker run -p 5432:5432 --name test-postgres -e POSTGRES_DB=test -e POSTGRES_PASSWORD=test -d postgres",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willrstern/backend-engineering-overview-live-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willrstern/backend-engineering-overview-live-demo/issues"
+  },
+  "homepage": "https://github.com/willrstern/backend-engineering-overview-live-demo#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.3",
+    "pg": "^8.2.0"
+  }
+}
