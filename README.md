@@ -5,3 +5,14 @@ in a presentation called `Backend Engineering For Frontend Engineers`.
 
 The goal was to give a very general overview of the entire picture of backend development, tools, and mentality.
 I added loads of comments to `app.js` and `Dockerfile`, which hopefully prove helpful...enjoy!
+
+# Running the demo!
+
+Just run the following:
+
+```
+npm i
+npm start
+```
+
+Then navigate to http://localhost:3000/ and try out the different endpoints!

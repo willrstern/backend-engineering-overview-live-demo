@@ -25,6 +25,7 @@
     "express-session": "^1.17.1",
     "knex": "^0.21.1",
     "mysql": "^2.18.1",
+    "newrelic": "^6.8.0",
     "nodemon": "^2.0.3",
     "pg": "^8.2.0"
   }
