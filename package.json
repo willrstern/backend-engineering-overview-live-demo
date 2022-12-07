@@ -21,7 +21,7 @@
   "homepage": "https://github.com/willrstern/backend-engineering-overview-live-demo#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-session": "^1.17.1",
     "knex": "^0.21.1",
     "mysql": "^2.18.1",
